@@ -5,9 +5,25 @@ variable "region" {
 variable "cidr_vpc" {
   type = string
 }
-variable "subnet" {
+variable "pubsubnet1" {
   type = string
   
+}
+variable "pubsubnet2" {
+  type = string
+  
+}
+variable "prisubnet1" {
+  type = string
+}
+variable "prisubnet2" {
+  type = string
+}
+variable "prisubnet3" {
+  type = string
+}
+variable "prisubnet4" {
+  type = string
 }
 variable "ami" {
   type = string
